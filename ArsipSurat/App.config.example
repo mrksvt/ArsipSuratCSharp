@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5.2" />
+    </startup>
+    <connectionStrings>
+        <add name="ArsipSuratDb" connectionString="server=localhost;database=arsip_surat;uid=root;password=;" providerName="MySql.Data.MySqlClient" />
+    </connectionStrings>
+    <appSettings>
+        <add key="SmtpHost" value="smtp.gmail.com" />
+        <add key="SmtpPort" value="587" />
+        <add key="SmtpUser" value="your-email@gmail.com" />
+        <add key="SmtpPassword" value="your-app-password" />
+        <add key="SmtpFrom" value="Arsip Surat &lt;your-email@gmail.com&gt;" />
+        <add key="SmtpEnableSsl" value="true" />
+    </appSettings>
+</configuration>
